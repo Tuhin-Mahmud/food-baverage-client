@@ -1,0 +1,198 @@
+[
+    {
+        "image": "https://i.ibb.co/Ns27QC9/front-view-energy-drink-can-dark-pink-background-color-water-soda-darkness-drink.jpg",
+        "brand_name": "cocacola",
+        "category": "Diet Coke",
+        "type": "drinks",
+        "price": 19.99,
+        "description": "Diet Coke is sweetened with artificial sweeteners, such as aspartame, which imparts sweetness without adding calories or sugar.",
+        "rating": 4.7
+    },
+    {
+        "image": "https://i.ibb.co/vwxtvCG/serving-cola-from-bottle-glass-full-ice.jpg",
+        "brand_name": "cocacola",
+        "category": "Coca-Cola Zero Sugar",
+        "type": "drinks",
+        "price": 12.99,
+        "description": "Powerful laptop with high-performance features.",
+        "rating": 4.7
+    },
+    {
+        "image": "https://i.ibb.co/g4g38XW/delicious-mojito-rum-cola-blood-orange-vodka-cocktails-served-with-fruit.jpg",
+        "brand_name": "cocacola",
+        "category": "Sprite",
+        "type": "drinks",
+        "price": 23.6,
+        "description": "Powerful laptop with high-performance features.",
+        "rating": 4.7
+    },
+    {
+        "image": "https://i.ibb.co/mRyC7GS/person-pouring-milk-full-glass-with-walnuts-tray.jpg",
+        "brand_name": "cocacola",
+        "category": "Fairlife (ultra-filtered milk)",
+        "type": "drinks",
+        "price": 33.6,
+        "description": "Powerful laptop with high-performance features.",
+        "rating": 4.7
+    },
+    {
+        "image": "https://i.ibb.co/ns87wtv/2150741653.jpg",
+        "brand_name": "mcdonalds",
+        "category": " McChicken",
+        "price": 79.99,
+        "description": "Comfortable and stylish sneakers for everyday use.",
+        "rating": 4.2
+    },
+    {
+        "image": "https://i.ibb.co/DLGZZXr/2150857868.jpg",
+        "brand_name": "Chicken McNuggets",
+        "category": "mcdonalds",
+        "price": 74.99,
+        "description": "Comfortable and stylish sneakers for everyday use.",
+        "rating": 4.2
+    },
+    {
+        "image": "https://i.ibb.co/S6B3Y3J/33220.jpg",
+        "brand_name": "Filet-O-Fish",
+        "category": "mcdonalds ",
+        "price": 74.99,
+        "description": "Comfortable and stylish sneakers for everyday use.",
+        "rating": 4.2
+    },
+    {
+        "image": "https://i.ibb.co/2PTZj1Y/11818.jpg",
+        "brand_name": "Hotcakes",
+        "category": "mcdDonalds ",
+        "price": 74.99,
+        "description": "Comfortable and stylish sneakers for everyday use.",
+        "rating": 4.2
+    },
+    {
+        "image": "https://i.ibb.co/zfcDVgT/20895.jpg",
+        "brand_name": "Turkey & Swiss Sandwich",
+        "category": "starbuck",
+        "price": 149.99,
+        "description": "Automatic coffee maker with multiple brewing options.",
+        "rating": 4.5
+    },
+    {
+        "image": "https://i.ibb.co/zfcDVgT/20895.jpg",
+        "brand_name": "Chicken Caprese Panini",
+        "category": "starbuck",
+        "price": 149.99,
+        "description": "Automatic coffee maker with multiple brewing options.",
+        "rating": 4.5
+    },
+    {
+        "image": "https://i.ibb.co/2PTZj1Y/11818.jpg",
+        "brand_name": "Ham & Swiss Panini",
+        "category": "starbuck",
+        "price": 149.99,
+        "description": "Automatic coffee maker with multiple brewing options.",
+        "rating": 4.5
+    },
+    {
+        "image": "https://i.ibb.co/2PTZj1Y/11818.jpg",
+        "brand_name": "Ham & Swiss Panini",
+        "category": "starbuck",
+        "price": 149.99,
+        "description": "Automatic coffee maker with multiple brewing options.",
+        "rating": 4.5
+    },
+    {
+        "image": "https://example.com/tent-image.jpg",
+        "brand_name": "Quaker Oats",
+        "category": "pepsico",
+        "price": 199.99,
+        "description": "Spacious and durable camping tent for outdoor adventures.",
+        "rating": 4.0
+    },
+    {
+        "image": "https://example.com/tent-image.jpg",
+        "brand_name": "Cap'n Crunch",
+        "category": "pepsico",
+        "price": 199.99,
+        "description": "Spacious and durable camping tent for outdoor adventures.",
+        "rating": 4.0
+    },
+    {
+        "image": "https://example.com/tent-image.jpg",
+        "brand_name": "Popcorn",
+        "category": "pepsico",
+        "price": 199.99,
+        "description": "Spacious and durable camping tent for outdoor adventures.",
+        "rating": 4.0
+    },
+    {
+        "image": "https://example.com/tent-image.jpg",
+        "brand_name": "Rold Gold",
+        "category": "pepsico",
+        "price": 199.99,
+        "description": "Spacious and durable camping tent for outdoor adventures.",
+        "rating": 4.0
+    },
+    {
+        "image": "https://example.com/tent-image.jpg",
+        "brand_name": "Kit Kat",
+        "category": "nestle",
+        "price": 199.99,
+        "description": "Spacious and durable camping tent for outdoor adventures.",
+        "rating": 4.0
+    },
+    {
+        "image": "https://example.com/tent-image.jpg",
+        "brand_name": "Nesquik",
+        "category": "nestle",
+        "price": 199.99,
+        "description": "Spacious and durable camping tent for outdoor adventures.",
+        "rating": 4.0
+    },
+    {
+        "image": "https://example.com/tent-image.jpg",
+        "brand_name": "Chocapic",
+        "category": "nestle",
+        "price": 199.99,
+        "description": "Spacious and durable camping tent for outdoor adventures.",
+        "rating": 4.0
+    },
+    {
+        "image": "https://example.com/tent-image.jpg",
+        "brand_name": "Nestlé Milkmaid",
+        "category": "nestle",
+        "price": 199.99,
+        "description": "Spacious and durable camping tent for outdoor adventures.",
+        "rating": 4.0
+    },
+    {
+        "image": "https://example.com/tent-image.jpg",
+        "brand_name": "Frosted Flakes",
+        "category": "kelloggs",
+        "price": 199.99,
+        "description": "Spacious and durable camping tent for outdoor adventures.",
+        "rating": 4.0
+    },
+    {
+        "image": "https://example.com/tent-image.jpg",
+        "brand_name": "Rice Krispies",
+        "category": "kelloggs",
+        "price": 199.99,
+        "description": "Spacious and durable camping tent for outdoor adventures.",
+        "rating": 4.0
+    },
+    {
+        "image": "https://example.com/tent-image.jpg",
+        "brand_name": "Nutri-Grain Bars",
+        "category": "kelloggs",
+        "price": 199.99,
+        "description": "Spacious and durable camping tent for outdoor adventures.",
+        "rating": 4.0
+    },
+    {
+        "image": "https://example.com/tent-image.jpg",
+        "brand_name": "Kellogg's Granola",
+        "category": "kelloggs",
+        "price": 199.99,
+        "description": "Spacious and durable camping tent for outdoor adventures.",
+        "rating": 4.0
+    }
+]
