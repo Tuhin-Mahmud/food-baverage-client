@@ -5,7 +5,7 @@ const BrandFoods = () => {
     const [showFood, setShowFood] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5000/addedProduct')
+        fetch(' https://food-and-beverage-server-gpvzpnsw4-tuhins-projects-ebb2edde.vercel.app/addedProduct')
             .then(res => res.json())
             .then(data => setShowFood(data))
     }, [])

@@ -11,7 +11,7 @@ const CartDetails = () => {
 
     const handleAddToCart = (food) => {
 
-        fetch(`http://localhost:5000/carts/${food._id}`, {
+        fetch(` https://food-and-beverage-server-gpvzpnsw4-tuhins-projects-ebb2edde.vercel.app/carts/${food._id}`, {
             method: 'POST',
             headers: {
                 'content': 'application/json'

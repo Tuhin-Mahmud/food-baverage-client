@@ -6,12 +6,12 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyC6aWu0xhED-5WaVazIQm_j_d0wIzRqPPk",
-    authDomain: "food-baverage-b5a91.firebaseapp.com",
-    projectId: "food-baverage-b5a91",
-    storageBucket: "food-baverage-b5a91.appspot.com",
-    messagingSenderId: "964101744194",
-    appId: "1:964101744194:web:3fafd4ef0e03c5433f6fdb"
+    apiKey: import.meta.env.VITE_apiKey,
+    authDomain: import.meta.env.VITE_authDomain,
+    projectId: import.meta.env.VITE_projectId,
+    storageBucket: import.meta.env.VITE_storageBucket,
+    messagingSenderId: import.meta.env.VITE_messagingSenderId,
+    appId: import.meta.env.VITE_appId,
 };
 
 // Initialize Firebase

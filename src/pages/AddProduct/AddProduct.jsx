@@ -17,7 +17,7 @@ const AddProduct = () => {
         const addFood = { name, category, price, description, rating, photo }
         console.log(addFood);
 
-        fetch('http://localhost:5000/addedProduct', {
+        fetch(' https://food-and-beverage-server-gpvzpnsw4-tuhins-projects-ebb2edde.vercel.app/addedProduct', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',
