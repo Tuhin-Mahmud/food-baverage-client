@@ -21,8 +21,8 @@ const Contacts = () => {
                     <img className='w-[100px] h-[90px] rounded-xl' src={contact} alt="" />
                     <div className='ml-5'>
                         <h5 className='text-lg font-bold'>Phone</h5>
-                        <h1>01777777777</h1>
-                        <h1>01777777777</h1>
+                        <h1>0193754639367</h1>
+                        <h1>01684673933</h1>
                     </div>
                 </div>
                 <div className='flex'>
