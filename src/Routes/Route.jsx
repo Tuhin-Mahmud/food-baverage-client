@@ -9,6 +9,7 @@ import Register from "../pages/Register/Register";
 import CategoryBrand from "../pages/CategoryBrand/CategoryBrand";
 import PrivetRout from "./PrivetRout/PrivetRout";
 import CartDetails from "../pages/CategoryBrand/BrandFoods/CartDetails";
+import AllFood from "../pages/AllFood/AllFood";
 // import PrivetRout from "./PrivetRout/PrivetRout";
 // import ShowFoods from "../pages/ShowFoods/ShowFoods";
 
@@ -29,19 +30,21 @@ const router = createBrowserRouter([
 
             },
             {
+                path: '/allFoods',
+                element: <AllFood></AllFood>
+            },
+            {
                 path: '/myCart',
                 element: <MyCart></MyCart>,
-                // loader: () => fetch('http://localhost:5000/foods')
-
             },
             {
                 path: '/category/:category',
                 element: <PrivetRout><CategoryBrand></CategoryBrand></PrivetRout>
             },
             {
-                path: '/cartDetails/:id',
+                path: '/categoryDetails/:id',
                 element: <PrivetRout><CartDetails></CartDetails></PrivetRout>,
-                loader: ({ params }) => fetch(`https://food-and-beverage-server-gpvzpnsw4-tuhins-projects-ebb2edde.vercel.app/addedProduct/${params.id}`)
+                loader: ({ params }) => fetch(`http://localhost:5000/read-category/${params.id}`)
 
             }
         ]

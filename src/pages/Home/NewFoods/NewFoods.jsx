@@ -14,7 +14,7 @@ import 'swiper/css/pagination';
 const NewFoods = () => {
     return (
         <div className='mt-20 mb-20'>
-            <h1 className='text-4xl font-medium mb-3 text-center'>Our New Foods</h1>
+            <h1 className='text-4xl text-orange-500 font-bold mb-3 text-center'>Our New Foods</h1>
             <Swiper
                 slidesPerView={3}
                 spaceBetween={30}
@@ -26,19 +26,20 @@ const NewFoods = () => {
                 className="mySwiper "
             >
                 <SwiperSlide>
-                    <img className='w-full h-[300px] hover:scale-110 transition object-cover' src={food0} alt="" />
+                    <img className='w-full h-[300px] hover:scale-110 duration-500 transition object-cover' src={food0} alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='w-full h-[300px] hover:scale-110 transition object-cover' src={food3} alt="" />
+                    <img className='w-full  h-[300px] hover:scale-110
+                    duration-500  transition object-cover' src={food3} alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='w-full h-[300px] hover:scale-110 transition object-cover' src={food4} alt="" />
+                    <img className='w-full h-[300px] hover:scale-110 duration-500 transition object-cover' src={food4} alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='w-full h-[300px] hover:scale-110 transition object-cover' src={food1} alt="" />
+                    <img className='w-full h-[300px] hover:scale-110 duration-500 transition object-cover' src={food1} alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='w-full h-[300px] hover:scale-110 transition object-cover' src={food2} alt="" />
+                    <img className='w-full h-[300px] hover:scale-110 duration-500 transition object-cover' src={food2} alt="" />
                 </SwiperSlide>
 
             </Swiper>
