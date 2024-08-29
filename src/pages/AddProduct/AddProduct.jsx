@@ -1,3 +1,4 @@
+import axios from "axios";
 import Swal from "sweetalert2";
 
 const AddProduct = () => {
@@ -13,29 +14,44 @@ const AddProduct = () => {
         const rating = form.rating.value;
         const photo = form.photo.value;
         const categorySelect = form.categorySelect.value;
-        console.log(categorySelect,);
-        const addFood = { name, category, price, description, rating, photo }
+        const addFood = { name, category, price, description, rating, photo, categorySelect }
         console.log(addFood);
 
-        fetch('', {
-            method: 'POST',
-            headers: {
-                'content-type': 'application/json',
-            },
-            body: JSON.stringify(addFood)
-        })
-            .then(res => res.json())
-            .then(data => {
-                console.log(data);
-                if (data.insertedId) {
+        axios.post('http://localhost:5000/addProduct', addFood)
+
+            .then(res => {
+                if (res.data.insertedId) {
+
                     Swal.fire({
-                        title: 'success!',
-                        text: 'food added successfully',
-                        icon: 'success',
-                        confirmButtonText: 'ok'
-                    })
+                        position: "top-end",
+                        icon: "success",
+                        title: "Your Product added successfully",
+                        showConfirmButton: false,
+                        timer: 1500
+                    });
                 }
             })
+            .catch(error => console.log(error))
+
+        // fetch('', {
+        //     method: 'POST',
+        //     headers: {
+        //         'content-type': 'application/json',
+        //     },
+        //     body: JSON.stringify(addFood)
+        // })
+        //     .then(res => res.json())
+        //     .then(data => {
+        //         console.log(data);
+        //         if (data.insertedId) {
+        //             Swal.fire({
+        //                 title: 'success!',
+        //                 text: 'food added successfully',
+        //                 icon: 'success',
+        //                 confirmButtonText: 'ok'
+        //             })
+        //         }
+        //     })
 
     }
 
