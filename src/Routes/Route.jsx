@@ -10,6 +10,7 @@ import CategoryBrand from "../pages/CategoryBrand/CategoryBrand";
 import PrivetRout from "./PrivetRout/PrivetRout";
 import CartDetails from "../pages/CategoryBrand/BrandFoods/CartDetails";
 import AllFood from "../pages/AllFood/AllFood";
+import Contacts from "../pages/Contacts/Contacts";
 // import PrivetRout from "./PrivetRout/PrivetRout";
 // import ShowFoods from "../pages/ShowFoods/ShowFoods";
 
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
             {
                 path: '/allFoods',
                 element: <AllFood></AllFood>
+            },
+            {
+                path: '/contact',
+                element: <Contacts />
             },
             {
                 path: '/myCart',

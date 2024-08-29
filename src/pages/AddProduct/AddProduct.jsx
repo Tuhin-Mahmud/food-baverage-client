@@ -33,25 +33,7 @@ const AddProduct = () => {
             })
             .catch(error => console.log(error))
 
-        // fetch('', {
-        //     method: 'POST',
-        //     headers: {
-        //         'content-type': 'application/json',
-        //     },
-        //     body: JSON.stringify(addFood)
-        // })
-        //     .then(res => res.json())
-        //     .then(data => {
-        //         console.log(data);
-        //         if (data.insertedId) {
-        //             Swal.fire({
-        //                 title: 'success!',
-        //                 text: 'food added successfully',
-        //                 icon: 'success',
-        //                 confirmButtonText: 'ok'
-        //             })
-        //         }
-        //     })
+
 
     }
 

@@ -1,21 +1,22 @@
 import { useLoaderData } from "react-router-dom";
 import FoodCart from "../FoodCart/FoodCart";
+import useCarts from "../../hooks/useCarts";
 
 
 
 const MyCart = () => {
-
+    const [cart] = useCarts()
 
     return (
         <div className="">
             <h1 className="text-center text-4xl font-medium mb-3">All Foods Here</h1>
-            <div className="grid md:grid-cols-4 gap-4">
-                {/* {
-                    foods.map(food => <FoodCart
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                {
+                    cart.map(food => <FoodCart
                         key={food._id}
                         food={food}
                     ></FoodCart>)
-                } */}
+                }
             </div>
         </div>
     );
