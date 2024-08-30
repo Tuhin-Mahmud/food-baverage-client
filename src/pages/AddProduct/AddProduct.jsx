@@ -40,14 +40,15 @@ const AddProduct = () => {
 
     return (
         <div>
+            <h2 className="text-center text-3xl text-orange-500 font-serif mb-3 font-bold">Add Your Favourite Product</h2>
             <form onSubmit={handleSubmit} >
-                <div className=" bg-gray-300 flex  p-20">
+                <div className=" bg-gray-100 flex  p-20">
                     <div className="md:w-9/12 mx-auto  space-y-4">
                         {/*1: name and brandName */}
 
                         <div className="flex">
                             <div className="md:w-1/2">
-                                <input type="text" name="name" placeholder="name" className="input input-bordered w-full " />
+                                <input type="text" name="name" placeholder="name" className="input input-bordered w-full " required />
                             </div>
 
                             <div className="md:w-1/2 ml-2">
@@ -71,27 +72,27 @@ const AddProduct = () => {
                         {/*2: category and price */}
                         <div className="flex">
                             <div className="md:w-1/2">
-                                <input type="text" name="category" placeholder="Category" className="input input-bordered w-full " />
+                                <input type="text" name="category" placeholder="Category" className="input input-bordered w-full " required />
                             </div>
                             <div className="md:w-1/2 ml-2">
-                                <input type="text" name="price" placeholder="Price" className="input input-bordered w-full " />
+                                <input type="text" name="price" placeholder="Price" className="input input-bordered w-full " required />
                             </div>
                         </div>
                         {/* 3: short description and rating*/}
                         <div className="flex">
                             <div className="md:w-1/2">
-                                <input type="text" name="description" placeholder="Description" className="input input-bordered w-full " />
+                                <input type="text" name="description" placeholder="Description" className="input input-bordered w-full " required />
                             </div>
                             <div className="md:w-1/2 ml-2">
-                                <input type="text" name="rating" placeholder="Rating" className="input input-bordered w-full " />
+                                <input type="text" name="rating" placeholder="Rating" className="input input-bordered w-full " required />
                             </div>
                         </div>
                         {/*Image*/}
                         <div className="md:full">
-                            <input type="text" name="photo" placeholder="Photo URL" className="input input-bordered w-full " />
+                            <input type="text" name="photo" placeholder="Photo URL" className="input input-bordered w-full " required />
                         </div>
                         {/* <button className="btn btn-block">block</button> */}
-                        <input className="btn btn-block text-xl font-bold" type="submit" value="ADD" />
+                        <input className="btn btn-block text-xl font-bold" type="submit" value="Add a Product" />
 
                     </div>
                 </div>

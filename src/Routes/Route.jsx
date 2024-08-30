@@ -11,6 +11,7 @@ import PrivetRout from "./PrivetRout/PrivetRout";
 import CartDetails from "../pages/CategoryBrand/BrandFoods/CartDetails";
 import AllFood from "../pages/AllFood/AllFood";
 import Contacts from "../pages/Contacts/Contacts";
+import ProductUpdate from "../pages/ProductUpdate/ProductUpdate";
 // import PrivetRout from "./PrivetRout/PrivetRout";
 // import ShowFoods from "../pages/ShowFoods/ShowFoods";
 
@@ -33,6 +34,11 @@ const router = createBrowserRouter([
             {
                 path: '/allFoods',
                 element: <AllFood></AllFood>
+            },
+            {
+                path: '/allFoodUpdate/:id',
+                element: <ProductUpdate />,
+                loader: ({ params }) => fetch(`http://localhost:5000/read-singleProduct/${params.id}`)
             },
             {
                 path: '/contact',

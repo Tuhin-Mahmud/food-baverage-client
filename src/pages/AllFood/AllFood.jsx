@@ -4,21 +4,25 @@ import AllFoodCart from "./AllFoodCart";
 
 const AllFood = () => {
 
-    const { data: allProduct = [] } = useQuery({
+    const { data: allProduct = [], isLoading } = useQuery({
         queryKey: ['allProducts'],
         queryFn: async () => {
             const res = await axios.get('http://localhost:5000/allProduct')
-            console.log(allProduct);
+
             return res.data;
         }
     })
 
+    if (isLoading) {
+        return <p className="text-2xl text-center my-48">Loading..</p>
+    }
+
     return (
         <div>
-            <h2 className="text-center text-3xl font-bold font-serif text-orange-500">All Foods Here</h2>
+            <h2 className="text-center text-3xl font-bold font-serif text-orange-500 mb-4">All Foods Here</h2>
 
             {/* all product cart */}
-            <h1>{allProduct.length}</h1>
+
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                 {
                     allProduct.map(product => <AllFoodCart
