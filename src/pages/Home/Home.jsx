@@ -1,6 +1,7 @@
 import Footer from "../../components/Footer/Footer";
 import Banner from "../../components/Header/Banner/Banner";
 import About from "../About/About";
+import Accordian from "../Accordian/Accordian";
 import BestChoice from "../BestChoice/BestChoice";
 import BrandProduct from "../BrandProduct/BrandProduct";
 // import BrandProduct from "../BrandProduct/BrandProduct";
@@ -16,6 +17,7 @@ const Home = () => {
             <NewFoods></NewFoods>
             <About></About>
             <BestChoice></BestChoice>
+            <Accordian></Accordian>
             <Contacts></Contacts>
 
         </div>
