@@ -52,14 +52,6 @@ const AddProduct = () => {
 
                             <div className="md:w-1/2 ml-2">
 
-                                {/* <input type="text" name="brandName" placeholder="BrandName" className="input input-bordered w-full " /> */}
-
-                                {/* <select className="w-full input input-bordered" name="categorySelect" id="">
-                                    <option value="pepsico">pepsico</option>
-                                    <option value="pepsico">coca-cola</option>
-                                    <option value="pepsico">pepsico</option>
-                                </select> */}
-
                                 <select name="categorySelect" className="input input-bordered w-full" id="cars" >
                                     <option value="">
                                         please category

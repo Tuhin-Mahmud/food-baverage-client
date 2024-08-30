@@ -2,10 +2,12 @@ import { useLoaderData } from "react-router-dom";
 import Swal from "sweetalert2";
 import useAuth from "../../../hooks/useAuth";
 import axios from "axios";
+import useCarts from "../../../hooks/useCarts";
 
 /* eslint-disable react/prop-types */
 const CartDetails = () => {
     const { user } = useAuth()
+    const [, refetch] = useCarts()
     const cateDetails = useLoaderData()
     // console.log(cateDetails);
 
@@ -24,6 +26,7 @@ const CartDetails = () => {
         axios.post('http://localhost:5000/added-carts', cartItem)
             .then(res => {
                 if (res.data.insertedId) {
+                    refetch()
                     Swal.fire({
                         title: 'success!',
                         text: 'food added to the cart successfully',
@@ -71,9 +74,9 @@ const CartDetails = () => {
 
     return (
 
-        <div className="mt-10">
+        <div className="mt-5">
             <h2 className="text-center text-3xl font-serif font-bold text-orange-700">Product Details</h2>
-            <div className="hero min-h-screen bg-base-200">
+            <div className="hero  mt-5 bg-base-200">
                 <div className=" justify-between items-center border border-orange-300 w-full flex flex-col lg:flex-row">
                     <div className=" md:w-1/2">
                         {/* <Link to="/category"><button className="text-2xl bg-orange-400 p-2 rounded-full text-white "><FaArrowLeft></FaArrowLeft> </button></Link> */}
