@@ -21,8 +21,6 @@ const Register = () => {
                 const from = location?.state?.pathname || '/';
 
                 navigate(from, { replace: true })
-
-
             })
             .catch(err => {
                 console.log(err);

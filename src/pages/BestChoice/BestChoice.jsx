@@ -4,7 +4,7 @@ import { LuPartyPopper } from "react-icons/lu";
 
 const BestChoice = () => {
     return (
-        <div className="my-10 px-3 md:px-0">
+        <div className="my-10 px-3 md:px-0 cursor-pointer">
             <div className="text-center">
                 <h4 className="text-orange-500 uppercase font-bold">Why choose us</h4>
                 <h1 className="text-4xl uppercase font-semibold font-serif">Why We’re Your Best Choice</h1>
