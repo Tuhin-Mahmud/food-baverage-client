@@ -27,7 +27,8 @@ const CategoryBrand = () => {
     return (
         <div>
             <CategorySlider></CategorySlider>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-16">
+            <h2 className="text-3xl font-bold font-serif mt-10 text-center text-orange-500">Category Product</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-5">
                 {
                     singleCateProduct.map((food, index) => <SingleProduct
 
