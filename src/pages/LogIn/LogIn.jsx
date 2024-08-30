@@ -72,9 +72,14 @@ const LogIn = () => {
                             <input className="btn btn-primary" type="submit" value="LogIn" />
                         </div>
                     </form>
-                    <p className="text-center mb-7 text-orange-500 "> <small>New Here</small> <Link to='/register' className="">Register Now</Link></p>
-                    <button onClick={handleGoogle} className="text-3xl mb-4  btn">Google</button>
+                    <p className="text-center mb-7 text-orange-500 "> <small>New Here? </small> <Link to='/register' className="font-bold">Register Now.</Link></p>
+                    <div className="px-6">
+                        <div className="mx-auto border w-full border-black rounded text-center mb-4  hover:bg-orange-400 hover:text-white duration-500 transition">
+                            <button onClick={handleGoogle} className="text-3xl  p-2 ">Google</button>
+                        </div>
+                    </div>
                 </div>
+
 
             </div>
         </div>

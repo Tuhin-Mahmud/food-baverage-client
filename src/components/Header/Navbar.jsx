@@ -26,7 +26,7 @@ const Navbar = () => {
             user?.email ?
                 <li className="font-serif text-lg font-bold hover:text-orange-600"><button onClick={handleLogOut}>Log out </button></li>
                 :
-                <li><NavLink to="/logIn">LogIn</NavLink></li>
+                <li className="font-serif text-lg font-bold hover:text-orange-600"><NavLink to="/logIn">LogIn</NavLink></li>
         }
     </>
 
@@ -59,10 +59,10 @@ const Navbar = () => {
                     }
                 </ul>
             </div>
-            <div className="navbar-end border-rounded ">
-                <button className="btn">
+            <div className="navbar-end border-rounded   ">
+                <button className="border rounded-lg border-orange-300">
                     <Link to='/myCart'>
-                        <div className="flex items-center gap-3">
+                        <div className="flex items-center gap-3 p-3">
                             <FaShoppingCart className="text-xl" />
                             <p className="text-xl">{cart.length}</p>
                         </div>

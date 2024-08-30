@@ -7,7 +7,7 @@ const Contacts = () => {
 
     return (
         <div className='bg-slate-100  p-10 rounded-lg mb-20'>
-            <h1 className='text-4xl md:text-6xl  font-bold mb-10 text-orange-500 md:text-center'>Contact Us</h1>
+            <h1 className='text-4xl md:text-6xl  font-bold mb-10 text-orange-500 md:text-center font-serif'>Contact Us</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 ">
                 <div className='flex   '>
                     <img className='w-[100px] h-[90px] rounded-xl' src={work} alt="" />

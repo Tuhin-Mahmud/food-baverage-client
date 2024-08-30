@@ -7,7 +7,7 @@ const BestChoice = () => {
         <div className="my-10 px-3 md:px-0">
             <div className="text-center">
                 <h4 className="text-orange-500 uppercase font-bold">Why choose us</h4>
-                <h1 className="text-4xl uppercase font-semibold">Why We’re Your Best Choice</h1>
+                <h1 className="text-4xl uppercase font-semibold font-serif">Why We’re Your Best Choice</h1>
             </div>
             <div className="mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                 {/* 1 */}
