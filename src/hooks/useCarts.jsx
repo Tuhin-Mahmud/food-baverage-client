@@ -4,7 +4,7 @@ import axios from "axios";
 
 const useCarts = () => {
     const { user } = useAuth()
-    const { data: cart = [], refetch } = useQuery({
+    const { data: cart = [], } = useQuery({
         queryKey: ['carts', user?.email],
         queryFn: async () => {
             const res = await axios.get(`http://localhost:5000/read-carts?email=${user?.email}`)

@@ -18,10 +18,8 @@ const CategoryBrand = () => {
     console.log(singleCateProduct);
 
 
-
-
     if (isLoading == true) {
-        return <p>Loading..</p>
+        return <p className="text-2xl text-center my-48">Loading..</p>
     }
 
     return (
