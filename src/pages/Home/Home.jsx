@@ -1,6 +1,7 @@
 import Footer from "../../components/Footer/Footer";
 import Banner from "../../components/Header/Banner/Banner";
 import About from "../About/About";
+import BestChoice from "../BestChoice/BestChoice";
 import BrandProduct from "../BrandProduct/BrandProduct";
 // import BrandProduct from "../BrandProduct/BrandProduct";
 import Contacts from "../Contacts/Contacts";
@@ -14,6 +15,7 @@ const Home = () => {
             <BrandProduct></BrandProduct>
             <NewFoods></NewFoods>
             <About></About>
+            <BestChoice></BestChoice>
             <Contacts></Contacts>
 
         </div>
