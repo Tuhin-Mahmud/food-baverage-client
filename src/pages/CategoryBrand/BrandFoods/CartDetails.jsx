@@ -37,39 +37,6 @@ const CartDetails = () => {
             })
             .catch(error => console.log(error))
 
-
-        // fetch(`http://localhost:5000/added-carts/${food._id}`, {
-        //     method: 'POST',
-        //     headers: {
-        //         'content': 'application/json'
-        //     },
-        //     body: JSON.stringify(cartItem)
-        // })
-        //     .then(res => res.json())
-        //     .then(data => {
-        //         if (data.isertedId) {
-        //             Swal.fire({
-        //                 title: 'success!',
-        //                 text: 'food added to the cart successfully',
-        //                 icon: 'success',
-        //                 confirmButtonText: 'ok'
-        //             })
-        //         }
-        //     })
-
-        // fetch(` http://localhost:5000/carts/${food._id}`, {
-        //     method: 'POST',
-        //     headers: {
-        //         'content': 'application/json'
-        //     },
-        //     body: JSON.stringify(food)
-        // })
-        //     .then(res => res.json())
-        //     .then(data => {
-        //         if (data.insertedId) {
-        //            
-        //         }
-        //     })
     }
 
     return (

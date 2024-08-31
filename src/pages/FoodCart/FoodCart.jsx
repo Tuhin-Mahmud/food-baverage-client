@@ -1,8 +1,42 @@
 /* eslint-disable react/prop-types */
 import { Rating } from '@smastrom/react-rating'
 import '@smastrom/react-rating/style.css'
+import axios from 'axios';
+import Swal from 'sweetalert2';
+import useCarts from '../../hooks/useCarts';
 const FoodCart = ({ food }) => {
-    console.log(food);
+    const [, refetch] = useCarts()
+
+    const handleDelete = food => {
+
+        Swal.fire({
+            title: "Are you sure?",
+            text: "You won't be able to delete this!",
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#3085d6",
+            cancelButtonColor: "#d33",
+            confirmButtonText: "Yes, delete it!"
+        }).then((result) => {
+            if (result.isConfirmed) {
+                axios.delete(`http://localhost:5000/cart-delete/${food._id}`)
+
+                    .then(res => {
+                        if (res.data.deletedCount > 0) {
+                            refetch()
+                            Swal.fire({
+                                title: "Deleted!",
+                                text: "Your product  deleted from in this cart.",
+                                icon: "success"
+                            });
+                        }
+                    })
+
+
+            }
+        });
+    }
+
     return (
         <div className="px-4 md:p-1">
 
@@ -27,13 +61,15 @@ const FoodCart = ({ food }) => {
                         {/* <p className="ml-4">{food.rating}</p> */}
                     </div>
                     <div className="">
-                        <span className="text-lg font-semibold text-gray-900 dark:text-white">Price: ${food.price}</span>
+                        <span className="text-lg font-semibold text-gray-900 dark:text-white">category: {food.category}</span>
 
                     </div>
                     <div>
-                        <div className="flex justify-between mt-3">
-                            <button className="btn  bg-orange-400 hover:bg-stone-600 duration-500 text-white font-bold">Details</button>
-                            <button className="btn bg-orange-400 hover:bg-stone-600 duration-500 text-white font-bold ">update</button>
+                        <div className="flex justify-between items-center mt-3">
+                            <span className="text-lg font-semibold text-gray-900 dark:text-white">Price: ${food.price}</span>
+                            <button
+                                onClick={() => handleDelete(food)}
+                                className="btn bg-orange-400 hover:bg-stone-600 duration-500 text-white font-bold ">Delete</button>
                         </div>
                     </div>
                 </div>
