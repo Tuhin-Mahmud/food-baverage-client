@@ -5,7 +5,7 @@
         "brand_name": "Diet Coke",
         "type": "drinks",
         "price": 195.99,
-        "description": "Diet Coke is sweetened with artificial sweeteners, such as aspartame, which imparts sweetness without adding calories or sugar.",
+        "description": "Diet Coke is sweetened with artificial sweeteners.",
         "rating": 3.7
     },
     {
@@ -14,7 +14,7 @@
         "brand_name": "Coca-Cola Zero Sugar",
         "type": "drinks",
         "price": 127.99,
-        "description": "Powerful laptop with high-performance features.",
+        "description": " the classic taste of Coca-Cola without the sugar.",
         "rating": 3.3
     },
     {
@@ -23,7 +23,7 @@
         "brand_name": "Sprite",
         "type": "drinks",
         "price": 23.6,
-        "description": "Powerful laptop with high-performance features.",
+        "description": "Sprite is a lemon-lime flavored soft drink known for its crisp.",
         "rating": 4.2
     },
     {
@@ -32,7 +32,7 @@
         "brand_name": "Fairlife (ultra-filtered milk)",
         "type": "drinks",
         "price": 33.6,
-        "description": "Powerful laptop with high-performance features.",
+        "description": "Fairlife is an ultra-filtered milk that offers higher protein and calcium.",
         "rating": 3.7
     },
     {
@@ -40,7 +40,7 @@
         "category": "mcDonald's",
         "brand_name": " McChicken",
         "price": 89.99,
-        "description": "Comfortable and stylish sneakers for everyday use.",
+        "description": "The McChicken is a popular sandwich from McDonald's featuring a crispy.",
         "rating": 3.2
     },
     {
@@ -48,7 +48,7 @@
         "brand_name": "Chicken McNuggets",
         "category ": "mcDonald's",
         "price": 84.99,
-        "description": "Comfortable and stylish sneakers for everyday use.",
+        "description": "Chicken McNuggets are bite-sized pieces of chicken.",
         "rating": 2.4
     },
     {
@@ -56,7 +56,7 @@
         "brand_name": "Filet-O-Fish",
         "category": "mcDonald's",
         "price": 71.99,
-        "description": "Comfortable and stylish sneakers for everyday use.",
+        "description": "The Filet-O-Fish is a classic McDonald's sandwich featuring a crispy.",
         "rating": 2.9
     },
     {
@@ -64,7 +64,7 @@
         "brand_name": "Hotcakes",
         "category": "mcDonald's ",
         "price": 64.99,
-        "description": "Comfortable and stylish sneakers for everyday use.",
+        "description": "Hotcakes are a popular breakfast item at McDonald's, featuring fluffy.",
         "rating": 4.2
     },
     {
@@ -72,7 +72,7 @@
         "brand_name": "Turkey & Swiss Sandwich",
         "category": "starbuck",
         "price": 49.99,
-        "description": "Automatic coffee maker with multiple brewing options.",
+        "description": "The Turkey & Swiss Sandwich is a deli-style sandwich featuring.",
         "rating": 3.8
     },
     {
@@ -80,7 +80,7 @@
         "brand_name": "Chicken Caprese Panini",
         "category": "starbuck",
         "price": 149.99,
-        "description": "Automatic coffee maker with multiple brewing options.",
+        "description": "The Chicken Caprese Panini is a grilled sandwich featuring.",
         "rating": 3.7
     },
     {
@@ -88,7 +88,7 @@
         "brand_name": "Ham & Swiss Panini",
         "category": "starbuck",
         "price": 19.65,
-        "description": "Automatic coffee maker with multiple brewing options.",
+        "description": "The Ham & Swiss Panini is a warm, grilled sandwich featuring slices.",
         "rating": 3.9
     },
     {
@@ -96,7 +96,7 @@
         "brand_name": "Ham & Swiss Panini",
         "category": "starbuck",
         "price": 240.9,
-        "description": "Automatic coffee maker with multiple brewing options.",
+        "description": " making it a popular choice for a hearty, comforting meal.",
         "rating": 3.5
     },
     {
@@ -104,7 +104,7 @@
         "brand_name": "Quaker Oats",
         "category": "pepsiCo",
         "price": 79.99,
-        "description": "Spacious and durable camping tent for outdoor adventures.",
+        "description": "Quaker Oats are whole grain oats that are steamed and rolled.",
         "rating": 2.7
     },
     {
@@ -112,7 +112,7 @@
         "brand_name": "Cap'n Crunch",
         "category": "pepsiCo",
         "price": 19.99,
-        "description": "Spacious and durable camping tent for outdoor adventures.",
+        "description": "Cap'n Crunch is a popular breakfast cereal known for its sweet.",
         "rating": 2.3
     },
     {
@@ -120,7 +120,7 @@
         "brand_name": "Popcorn",
         "category": "pepsiCo",
         "price": 249.99,
-        "description": "Spacious and durable camping tent for outdoor adventures.",
+        "description": "Popcorn is a light, airy snack made from popped corn kernels.",
         "rating": 3.0
     },
     {
@@ -128,7 +128,7 @@
         "brand_name": "Rold Gold",
         "category": "pepsiCo",
         "price": 499.9,
-        "description": "Spacious and durable camping tent for outdoor adventures.",
+        "description": "Rold Gold is a brand known for its crunchy pretzels, available.",
         "rating": 4.0
     },
     {
@@ -136,7 +136,7 @@
         "brand_name": "Kit Kat",
         "category": "nestlé",
         "price": 49.00,
-        "description": "Spacious and durable camping tent for outdoor adventures.",
+        "description": "Kit Kat is a popular chocolate bar consisting of crisp wafer.",
         "rating": 2.3
     },
     {
@@ -144,7 +144,7 @@
         "brand_name": "Nesquik",
         "category": "nestlé",
         "price": 239.99,
-        "description": "Spacious and durable camping tent for outdoor adventures.",
+        "description": "Nesquik is a flavored powder or syrup designed to mix with milk.",
         "rating": 2.6
     },
     {
@@ -152,7 +152,7 @@
         "brand_name": "Chocapic",
         "category": "nestlé",
         "price": 19.99,
-        "description": "Spacious and durable camping tent for outdoor adventures.",
+        "description": "Chocapic is a chocolate-flavored breakfast cereal featuring crispy.",
         "rating": 3.0
     },
     {
@@ -160,7 +160,7 @@
         "brand_name": "Nestlé Milkmaid",
         "category": "nestlé",
         "price": 99.9,
-        "description": "Spacious and durable camping tent for outdoor adventures.",
+        "description": "Nestlé Milkmaid is a sweetened condensed milk product known for its rich.",
         "rating": 2.0
     },
     {
@@ -168,7 +168,7 @@
         "brand_name": "Frosted Flakes",
         "category": "kellogg's",
         "price": 239.99,
-        "description": "Spacious and durable camping tent for outdoor adventures.",
+        "description": "Frosted Flakes are a breakfast cereal made from crispy, toasted.",
         "rating": 1.9
     },
     {
@@ -176,7 +176,7 @@
         "brand_name": "Rice Krispies",
         "category": "kellogg's",
         "price": 199.99,
-        "description": "Spacious and durable camping tent for outdoor adventures.",
+        "description": "Rice Krispies are a classic breakfast cereal made from crisped rice.",
         "rating": 3.2
     },
     {
@@ -184,7 +184,7 @@
         "brand_name": "Nutri-Grain Bars",
         "category": "kellogg's",
         "price": 29.99,
-        "description": "Spacious and durable camping tent for outdoor adventures.",
+        "description": "Nutri-Grain Bars are soft, baked bars filled with a variety.",
         "rating": 3.4
     },
     {
@@ -192,7 +192,7 @@
         "brand_name": "Kellogg's Granola",
         "category": "kellogg's",
         "price": 23.99,
-        "description": "Spacious and durable camping tent for outdoor adventures.",
+        "description": "Kellogg's Granola is a crunchy, baked cereal made from a mix.",
         "rating": 2.0
     }
 ]

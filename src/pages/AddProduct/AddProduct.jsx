@@ -53,8 +53,8 @@ const AddProduct = () => {
 
                             <div className="md:w-1/2 ml-2">
 
-                                <select name="categorySelect" className="input input-bordered w-full" id="cars" >
-                                    <option value="">
+                                <select name="categorySelect" className="select select-bordered w-full" id="cars" >
+                                    <option disabled value={"default"}>
                                         please category
                                     </option>
                                     <option value="coca-cola">cocaCola</option>

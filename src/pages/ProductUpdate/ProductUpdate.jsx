@@ -48,6 +48,7 @@ const ProductUpdate = () => {
 
     return (
         <div>
+            <h2 className="text-2xl font-bold text-center text-orange-500 mb-4">Update Product </h2>
             <form onSubmit={handleUpdate} >
                 <div className=" bg-gray-100 flex  p-20">
                     <div className="md:w-9/12 mx-auto  space-y-4">
@@ -60,8 +61,8 @@ const ProductUpdate = () => {
 
                             <div className="md:w-1/2 ml-2">
 
-                                <select name="categorySelect" className="input input-bordered w-full" id="cars" >
-                                    <option value="">
+                                <select defaultValue={category} name="categorySelect" className="select select-bordered w-full" id="cars" >
+                                    <option disabled value={"default"}>
                                         please category
                                     </option>
                                     <option value="coca-cola">cocaCola</option>

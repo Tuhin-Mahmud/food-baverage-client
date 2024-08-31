@@ -18,7 +18,7 @@ const SingleProduct = ({ food }) => {
                         <h2 className=" text-center text-lg border rounded-xl font-bold border-orange-400 bg-slate-200">{brand_name}</h2>
                         <p className="text-lg"><span className="font-semibold">Category:</span> {category}</p>
                         <p className=""><span className="font-semibold">price:</span> <span className="text-orange-400">${price}</span></p>
-                        <p className="text-lg"><span className="font-semibold">description:  </span>{description}</p>
+                        <p className=""><span className="font-semibold">description:  </span>{description}</p>
                         <p className="text-lg"><span className="font-semibold">rating: </span>{rating}</p>
                         <div className="card-actions justify-end">
 
