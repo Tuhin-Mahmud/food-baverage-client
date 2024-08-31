@@ -5,7 +5,7 @@ const BrandProduct = () => {
     const [products, setProducts] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5000/read-brand')
+        fetch('https://food-and-beverage-server-ecru.vercel.app/read-brand')
             .then(res => res.json())
             .then(data => setProducts(data))
     }, [])

@@ -38,7 +38,7 @@ const router = createBrowserRouter([
             {
                 path: '/allFoodUpdate/:id',
                 element: <ProductUpdate />,
-                loader: ({ params }) => fetch(`http://localhost:5000/read-singleProduct/${params.id}`)
+                loader: ({ params }) => fetch(`https://food-and-beverage-server-ecru.vercel.app/read-singleProduct/${params.id}`)
             },
             {
                 path: '/contact',
@@ -55,7 +55,7 @@ const router = createBrowserRouter([
             {
                 path: '/categoryDetails/:id',
                 element: <PrivetRout><CartDetails></CartDetails></PrivetRout>,
-                loader: ({ params }) => fetch(`http://localhost:5000/read-category/${params.id}`)
+                loader: ({ params }) => fetch(`https://food-and-beverage-server-ecru.vercel.app/read-category/${params.id}`)
 
             }
         ]

@@ -17,7 +17,7 @@ const AddProduct = () => {
         const addFood = { name, category, price, description, rating, photo, categorySelect }
         console.log(addFood);
 
-        axios.post('http://localhost:5000/addProduct', addFood)
+        axios.post('https://food-and-beverage-server-ecru.vercel.app/addProduct', addFood)
 
             .then(res => {
                 if (res.data.insertedId) {

@@ -7,7 +7,7 @@ const useCarts = () => {
     const { data: cart = [], refetch } = useQuery({
         queryKey: ['carts', user?.email],
         queryFn: async () => {
-            const res = await axios.get(`http://localhost:5000/read-carts?email=${user?.email}`)
+            const res = await axios.get(`https://food-and-beverage-server-ecru.vercel.app/read-carts?email=${user?.email}`)
             return res.data;
         }
     })
