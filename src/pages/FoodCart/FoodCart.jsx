@@ -19,7 +19,7 @@ const FoodCart = ({ food }) => {
             confirmButtonText: "Yes, delete it!"
         }).then((result) => {
             if (result.isConfirmed) {
-                axios.delete(`http://localhost:5000/cart-delete/${food._id}`)
+                axios.delete(`https://food-and-beverage-server-ecru.vercel.app/cart-delete/${food._id}`)
 
                     .then(res => {
                         if (res.data.deletedCount > 0) {

@@ -24,7 +24,7 @@ const ProductUpdate = () => {
         const addFood = { name, category, price, description, rating, photo, categorySelect }
         console.log(addFood);
 
-        axios.put(`http://localhost:5000/product-update/${_id}`, addFood)
+        axios.put(`https://food-and-beverage-server-ecru.vercel.app/product-update/${_id}`, addFood)
 
             .then(res => {
                 console.log(res.data);

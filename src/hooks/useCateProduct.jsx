@@ -6,7 +6,7 @@ const useCateProduct = () => {
     const [isLoading, setIsLoading] = useState(true)
 
     useEffect(() => {
-        fetch('http://localhost:5000/read-category')
+        fetch('https://food-and-beverage-server-ecru.vercel.app/read-category')
             .then(res => res.json())
             .then(data => {
                 setIsLoading(false)

@@ -7,7 +7,7 @@ const AllFood = () => {
     const { data: allProduct = [], isLoading } = useQuery({
         queryKey: ['allProducts'],
         queryFn: async () => {
-            const res = await axios.get('http://localhost:5000/allProduct')
+            const res = await axios.get('https://food-and-beverage-server-ecru.vercel.app/allProduct')
 
             return res.data;
         }

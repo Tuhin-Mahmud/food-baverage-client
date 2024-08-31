@@ -23,7 +23,7 @@ const CartDetails = () => {
             price: food.price
 
         }
-        axios.post('http://localhost:5000/added-carts', cartItem)
+        axios.post('https://food-and-beverage-server-ecru.vercel.app/added-carts', cartItem)
             .then(res => {
                 if (res.data.insertedId) {
                     refetch()
