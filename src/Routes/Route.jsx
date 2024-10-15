@@ -50,7 +50,7 @@ const router = createBrowserRouter([
             },
             {
                 path: '/category/:category',
-                element: <PrivetRout><CategoryBrand></CategoryBrand></PrivetRout>
+                element: <CategoryBrand></CategoryBrand>
             },
             {
                 path: '/categoryDetails/:id',

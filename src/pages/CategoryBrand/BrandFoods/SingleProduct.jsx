@@ -13,7 +13,7 @@ const SingleProduct = ({ food }) => {
         <div>
             <div>
                 <div className="card card-compact  bg-base-300 shadow-xl h-[500px]">
-                    <figure><img className="w-full h-[210px] object-cover" src={image} alt="Shoes" /></figure>
+                    <figure><img className="w-96  h-[210px] object-cover" src={image} alt="Shoes" /></figure>
                     <div className="card-body">
                         <h2 className=" text-center text-lg border rounded-xl font-bold border-orange-400 bg-slate-200">{brand_name}</h2>
                         <p className="text-lg"><span className="font-semibold">Category:</span> {category}</p>

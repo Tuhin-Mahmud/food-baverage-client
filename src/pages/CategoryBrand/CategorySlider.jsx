@@ -7,19 +7,19 @@ import 'swiper/css/pagination';
 
 const CategorySlider = () => {
     return (
-        <div className='mt-5'>
+        <div className=''>
 
             <Swiper
             >
                 <SwiperSlide>
-                    <img className='w-full h-[500px] rounded-lg' src={food1} alt="" />
+                    <img className='w-full md:h-[500px] h-[200px] rounded-lg' src={food1} alt="" />
 
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='w-full h-[500px] rounded-lg' src={food2} alt="" />
+                    <img className='w-full md:h-[500px] h-[200px] rounded-lg' src={food2} alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='w-full h-[500px] rounded-lg' src={food3} alt="" />
+                    <img className='w-full md:h-[500px] h-[200px] rounded-lg' src={food3} alt="" />
                 </SwiperSlide>
 
             </Swiper>
