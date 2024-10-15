@@ -8,7 +8,9 @@ const MainLayout = () => {
         <div>
             <TopNavbar />
             <Navbar></Navbar>
-            <Outlet></Outlet>
+            <div className="min-h-screen">
+                <Outlet></Outlet>
+            </div>
             <Footer></Footer>
         </div>
     );

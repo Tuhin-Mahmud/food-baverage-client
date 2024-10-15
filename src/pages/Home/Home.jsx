@@ -6,6 +6,7 @@ import BestChoice from "../BestChoice/BestChoice";
 import BrandProduct from "../BrandProduct/BrandProduct";
 // import BrandProduct from "../BrandProduct/BrandProduct";
 import Contacts from "../Contacts/Contacts";
+import Menu from "../Menu/Menu";
 import NewFoods from "./NewFoods/NewFoods";
 
 
@@ -15,6 +16,7 @@ const Home = () => {
             <Banner></Banner>
             <BrandProduct></BrandProduct>
             <NewFoods></NewFoods>
+            <Menu></Menu>
             <About></About>
             <BestChoice></BestChoice>
             <Accordian></Accordian>
