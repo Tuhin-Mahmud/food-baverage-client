@@ -14,6 +14,7 @@ import Contacts from "../pages/Contacts/Contacts";
 import ProductUpdate from "../pages/ProductUpdate/ProductUpdate";
 import Menu from "../pages/Menu/Menu";
 import MenuTabs from "../pages/Menu/MenuTabs";
+import OrderDetails from "../pages/Menu/OrderDetails";
 // import PrivetRout from "./PrivetRout/PrivetRout";
 // import ShowFoods from "../pages/ShowFoods/ShowFoods";
 
@@ -63,6 +64,12 @@ const router = createBrowserRouter([
             {
                 path: '/menuTabs',
                 element: <MenuTabs />
+
+            },
+            {
+                path: '/orderDetails/:id',
+                element: <OrderDetails />,
+                loader: ({ params }) => fetch(`http://localhost:5000/menu/${params.id}`)
 
             },
         ]

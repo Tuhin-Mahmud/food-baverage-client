@@ -8,6 +8,8 @@ import popularImg2 from '../../assets/images/popular/popular2.jpg'
 import popularImg3 from '../../assets/images/popular/popular3.jpg'
 import popularImg4 from '../../assets/images/popular/popular4.jpg'
 import { Link } from "react-router-dom";
+
+import 'react-tabs/style/react-tabs.css';
 // import MenuCart from "./MenuCart";
 
 
