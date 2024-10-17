@@ -23,13 +23,13 @@ const MenuTabs = () => {
             <div className="mt-5 md:mt-16">
                 <Tabs selectedIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
                     <TabList className={'text-center '}>
-                        <Tab><p className="font-medium text-xl text-orange-500 font-mono ">desserts</p></Tab>
-                        <Tab><p className="font-medium text-xl text-orange-500 font-mono">pizza</p></Tab>
+                        <Tab><p className="font-medium text-xl text-orange-500 font-mono ">chicken</p></Tab>
+                        <Tab><p className="font-medium text-xl text-orange-500 font-mono">softDrinks</p></Tab>
                         <Tab>
-                            <p className="font-medium text-xl text-orange-500 font-mono">drinks</p>
+                            <p className="font-medium text-xl text-orange-500 font-mono">beverages</p>
                         </Tab>
                         <Tab>
-                            <p className="font-medium text-xl text-orange-500 font-mono">soup</p>
+                            <p className="font-medium text-xl text-orange-500 font-mono">desserts</p>
                         </Tab>
                     </TabList>
                     <TabPanel>

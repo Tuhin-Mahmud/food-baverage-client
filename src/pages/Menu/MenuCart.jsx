@@ -19,7 +19,7 @@ const MenuCart = ({ item }) => {
             </figure>
 
             <div className="text-center mt-2">
-                <h2 className=" capitalize">
+                <h2 className=" capitalize text-xl">
                     {name}
                 </h2>
                 <p className="text-orange-500 font-semibold">${price}</p>

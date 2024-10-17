@@ -29,7 +29,7 @@ const Menu = () => {
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-6 ">
                     {/* cart 1 */}
                     <div>
-                        <div className="card bg-white  border">
+                        <div className="card bg-white  border h-[380px]">
                             <figure className="px-10 pt-10 -mt-24">
                                 <img
                                     src={popularImg1}
@@ -53,8 +53,8 @@ const Menu = () => {
                         </div>
                     </div>
                     {/* 2 */}
-                    <div>
-                        <div className="card bg-white  border ">
+                    <div className="">
+                        <div className="card bg-white  border h-[380px]">
                             <figure className="px-10 pt-10 -mt-24">
                                 <img
                                     src={popularImg2}
@@ -63,10 +63,10 @@ const Menu = () => {
                             </figure>
                             <div className="card-body items-center text-center">
                                 <h2 className="card-title capitalize">
-                                    grilled cheese burger
+                                    Coca-Cola Zero Sugar
                                 </h2>
-                                <p className="text-orange-500 font-semibold">Price: $27</p>
-                                <p className="text-gray-500">Welcome to foodix, your ultimate destination for a delightful culinary experience.</p>
+                                <p className="text-orange-500 font-semibold">Price: $ 27.99</p>
+                                <p className="text-gray-500">the classic taste of Coca-Cola without the sugar.</p>
                                 <div className="">
                                     <Link to={'/menuTabs'}>
                                         <button className="bg-orange-500 px-3 py-3 rounded-lg text-white uppercase hover:bg-[#1E2A5E] duration-500 transition">
@@ -79,7 +79,7 @@ const Menu = () => {
                     </div>
                     {/* 3 */}
                     <div>
-                        <div className="card bg-white  border ">
+                        <div className="card bg-white  border h-[380px] ">
                             <figure className="px-10 pt-10 -mt-24">
                                 <img
                                     src={popularImg3}
@@ -88,10 +88,10 @@ const Menu = () => {
                             </figure>
                             <div className="card-body items-center text-center">
                                 <h2 className="card-title capitalize">
-                                    grilled cheese burger
+                                    Chicken McNuggets
                                 </h2>
-                                <p className="text-orange-500 font-semibold">Price: $27</p>
-                                <p className="text-gray-500">Welcome to foodix, your ultimate destination for a delightful culinary experience.</p>
+                                <p className="text-orange-500 font-semibold">Price: $31.2</p>
+                                <p className="text-gray-500">Chicken McNuggets are bite-sized pieces of chicken.</p>
                                 <div className="">
                                     <Link to={'/menuTabs'}>
                                         <button className="bg-orange-500 px-3 py-3 rounded-lg text-white uppercase hover:bg-[#1E2A5E] duration-500 transition">
@@ -104,7 +104,7 @@ const Menu = () => {
                     </div>
                     {/* 4 */}
                     <div>
-                        <div className="card bg-white  border ">
+                        <div className="card bg-white  border h-[380px] ">
                             <figure className="px-10 pt-10 -mt-24">
                                 <img
                                     src={popularImg4}
@@ -113,10 +113,10 @@ const Menu = () => {
                             </figure>
                             <div className="card-body items-center text-center">
                                 <h2 className="card-title capitalize">
-                                    grilled cheese burger
+                                    Hotcakes
                                 </h2>
                                 <p className="text-orange-500 font-semibold">Price: $27</p>
-                                <p className="text-gray-500">Welcome to foodix, your ultimate destination for a delightful culinary experience.</p>
+                                <p className="text-gray-500">Hotcakes are a popular breakfast item at McDonald&apos;s, featuring fluffy.</p>
                                 <div className="">
                                     <Link to={'/menuTabs'}>
                                         <button className="bg-orange-500 px-3 py-3 rounded-lg text-white uppercase hover:bg-[#1E2A5E] duration-500 transition">

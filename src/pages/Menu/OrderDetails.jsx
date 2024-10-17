@@ -1,4 +1,4 @@
-import { useLoaderData } from "react-router-dom";
+import { useLoaderData, useLocation, useNavigate } from "react-router-dom";
 import { FcOk } from "react-icons/fc";
 // import { Rating } from '@smastrom/react-rating'
 // import '@smastrom/react-rating/style.css'
@@ -10,10 +10,16 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import Container from "../../components/utils/Container";
 import useAxiosPublic from "../../hooks/useAxiosPublic";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Rating } from "@smastrom/react-rating";
 import useAuth from "../../hooks/useAuth";
 import { useQuery } from "@tanstack/react-query";
+import userImg from '../../assets/images/logo/user.jpg'
+import Swal from "sweetalert2";
+import { toast } from "react-toastify";
+import ProductCart from "../BrandProduct/ProductCart";
+// import useCarts from "../../hooks/useCarts";
+
 
 
 
@@ -22,33 +28,102 @@ const OrderDetails = () => {
     const [tabIndex, setTabIndex] = useState(0);
     const axiosPublic = useAxiosPublic()
     const { user } = useAuth()
+    const navigate = useNavigate()
+    const location = useLocation()
+    // const [cart, refetch] = useCarts()
+    const [brandProduct, setBrandProduct] = useState([])
 
     const { name, image, price, previousPrice, recipe, rating } = useLoaderData()
-    // --------------
 
-    // -------------
-
+    // post comment
     const handleSubmit = e => {
         e.preventDefault()
         const form = e.target;
         const text = form.text.value;
         const name = form.name.value;
         const email = form.email.value;
-        const photo = user.photoURL;
+
 
         const userComment = {
             text,
             name,
-            email,
-            userComment,
-            photo
+            userImage: user?.photoURL,
+            email: user?.email,
+            // userImage
         }
         axiosPublic.post('/comment', userComment)
             .then(res => {
                 console.log(res.data);
+                refetch()
+                if (res.data.insertedId) {
+                    toast.success('comment successfully')
+                }
             })
 
     }
+    // read comment
+    const { data: comment = [], refetch } = useQuery({
+        queryKey: ['comment',],
+        queryFn: async () => {
+            const res = await axiosPublic.get(`/comment`)
+
+            return res.data;
+        }
+    })
+
+
+    // add to cart
+    const handleAddToCart = () => {
+        if (user && user?.email) {
+            const menuInfo = {
+                image,
+                name,
+                rating,
+                price
+            }
+            axiosPublic.post('/added-carts', menuInfo)
+                .then(res => {
+                    console.log(res.data);
+                    refetch()
+                    if (res.data.insertedId) {
+                        toast.success('added to the cart')
+                    }
+
+                })
+        }
+        else {
+            Swal.fire({
+                title: "Please Login?",
+                text: "if you login, than add to the cart!",
+                icon: "warning",
+                showCancelButton: true,
+                confirmButtonColor: "#3085d6",
+                cancelButtonColor: "#d33",
+                confirmButtonText: "Yes, login!"
+            }).then((result) => {
+                navigate('/login', { state: { from: location } })
+                // if (result.isConfirmed) {
+                //     Swal.fire({
+                //         title: "Deleted!",
+                //         text: "Your file has been deleted.",
+                //         icon: "success"
+                //     });
+                // }
+            });
+        }
+
+
+    }
+
+
+    // related data
+    useEffect(() => {
+        fetch('https://food-and-beverage-server-ecru.vercel.app/read-brand')
+            .then(res => res.json())
+            .then(data => {
+                setBrandProduct(data)
+            })
+    }, [])
 
     return (
         <Container>
@@ -61,7 +136,7 @@ const OrderDetails = () => {
                                 className="w-full rounded-xl p-10  shadow-2xl" alt="details image" />
                         </div>
                         <div className="flex-1 space-y-4">
-                            <h1 className="md:text-3xl font-bold">{name}</h1>
+                            <h1 className="md:text-3xl font-bold text-gray-600">{name}</h1>
                             <div className="flex gap-4  justify-between">
                                 <div className="flex items-center gap-6">
                                     <p className=" text-orange-500 text-xl font-bold ">${price}</p>
@@ -76,7 +151,7 @@ const OrderDetails = () => {
                             <h2 className="bg-slate-400 px-2 w-32 items-center gap-3 rounded text-white flex"><FcOk /> In stock</h2>
                             <p className="text-gray-500">{recipe}</p>
                             <div>
-                                <button className="btn btn-primary"><MdOutlineShoppingCart className="text-lg " />
+                                <button onClick={() => handleAddToCart()} className="btn btn-primary"><MdOutlineShoppingCart className="text-lg " />
                                     Add To Cart </button>
                                 <button className=" hover:bg-orange-400 border md:ml-3 ml-0 p-3 rounded-full">
                                     <GiSelfLove className="text-2xl" />
@@ -142,8 +217,36 @@ const OrderDetails = () => {
                             </div>
                         </TabPanel>
                         <TabPanel>
-                            <div>
 
+                            <div>
+                                {/* comment */}
+                                <div className="space-y-4 mt-3">
+                                    {
+                                        comment.map(com => (
+                                            <div key={com._id} >
+                                                <div className="flex items-center justify-between ">
+                                                    <div>
+                                                        <div className="flex items-center gap-4">
+                                                            <img src={com?.userImage ? com?.userImage : userImg} className=" w-20 h-20 rounded-full" alt="" />
+                                                            <div className="">
+                                                                <h1 className="text-xl font-semibold">{com.name}</h1>
+                                                                <p className="text-sm  text-gray-600">{com.localTime}</p>
+                                                                <p className="text-gray-600">{com.text} </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <Rating
+                                                            style={{ maxWidth: 80 }}
+                                                            value={rating}
+                                                            readOnly
+                                                        />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        ))
+                                    }
+                                </div>
                                 <form onSubmit={handleSubmit} className="card-body">
                                     <div>
                                         <p>Add a review</p>
@@ -193,6 +296,21 @@ const OrderDetails = () => {
                             </div>
                         </TabPanel>
                     </Tabs>
+                </div>
+            </div>
+            {/* related product */}
+            <div>
+                <div className="mt-8 ">
+                    <h2 className="text-4xl font-bold  mb-3 text-orange-500 capitalize font-serif">Related Foods</h2>
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                        {
+                            brandProduct.map(product => <ProductCart
+                                key={product._id}
+                                product={product}
+                            ></ProductCart>)
+                        }
+                    </div>
+
                 </div>
             </div>
         </Container>
