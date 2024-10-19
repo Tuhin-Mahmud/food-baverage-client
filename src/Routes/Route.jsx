@@ -12,7 +12,6 @@ import CartDetails from "../pages/CategoryBrand/BrandFoods/CartDetails";
 import AllFood from "../pages/AllFood/AllFood";
 import Contacts from "../pages/Contacts/Contacts";
 import ProductUpdate from "../pages/ProductUpdate/ProductUpdate";
-import Menu from "../pages/Menu/Menu";
 import MenuTabs from "../pages/Menu/MenuTabs";
 import OrderDetails from "../pages/Menu/OrderDetails";
 // import PrivetRout from "./PrivetRout/PrivetRout";
@@ -69,7 +68,7 @@ const router = createBrowserRouter([
             {
                 path: '/orderDetails/:id',
                 element: <OrderDetails />,
-                loader: ({ params }) => fetch(`http://localhost:5000/menu/${params.id}`)
+                loader: ({ params }) => fetch(`https://food-and-beverage-server-ecru.vercel.app/menu/${params.id}`)
 
             },
         ]

@@ -41,7 +41,7 @@ const OrderDetails = () => {
         const form = e.target;
         const text = form.text.value;
         const name = form.name.value;
-        const email = form.email.value;
+        // const email = form.email.value;
 
 
         const userComment = {

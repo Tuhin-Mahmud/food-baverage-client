@@ -1,4 +1,4 @@
-import food1 from '../../assets/images/newfoods/food3.jpg.jpg'
+import food1 from '../../assets/images/newfoods/food3.jpg'
 import food2 from '../../assets/images/newfoods/food4.jpg.jpg'
 import food3 from '../../assets/images/newfoods/food2.jpg.jpg'
 import { Swiper, SwiperSlide } from 'swiper/react';

@@ -17,6 +17,11 @@ const MenuTabs = () => {
     const pizza = menu.filter(item => item.category === 'pizza')
     const drinks = menu.filter(item => item.category === 'drinks')
     const soup = menu.filter(item => item.category === 'soup')
+
+    if (isLoading) {
+        return <p>loading...</p>
+
+    }
     return (
         <Container>
             <CoverImg img={coverImg1}></CoverImg>

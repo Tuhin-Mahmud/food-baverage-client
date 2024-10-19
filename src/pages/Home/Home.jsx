@@ -1,4 +1,4 @@
-import Footer from "../../components/Footer/Footer";
+
 import Banner from "../../components/Header/Banner/Banner";
 import About from "../About/About";
 import Accordian from "../Accordian/Accordian";
@@ -21,7 +21,6 @@ const Home = () => {
             <BestChoice></BestChoice>
             <Accordian></Accordian>
             <Contacts></Contacts>
-
         </div>
     );
 };

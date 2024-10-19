@@ -1,7 +1,7 @@
 import food0 from '../../../assets/images/newfoods/food0.jpg.jpg'
 import food1 from '../../../assets/images/newfoods/food1.jpg.jpg'
 import food2 from '../../../assets/images/newfoods/food2.jpg.jpg'
-import food3 from '../../../assets/images/newfoods/food3.jpg.jpg'
+import food3 from '../../../assets/images/newfoods/food3.jpg'
 import food4 from '../../../assets/images/newfoods/food4.jpg.jpg'
 // import food5 from '../../../assets/images/newfoods/food5.jpg.jpg'
 

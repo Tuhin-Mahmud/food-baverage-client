@@ -7,6 +7,7 @@ import useCateProduct from "../../hooks/useCateProduct";
 import { useParams } from "react-router-dom";
 import SingleProduct from "./BrandFoods/SingleProduct";
 import Container from "../../components/utils/Container";
+import Loader from "../../components/utils/Loader";
 
 
 const CategoryBrand = () => {
@@ -19,8 +20,8 @@ const CategoryBrand = () => {
     console.log(singleCateProduct);
 
 
-    if (isLoading == true) {
-        return <p className="text-2xl text-center my-48">Loading..</p>
+    if (isLoading) {
+        return <Loader />
     }
 
     return (

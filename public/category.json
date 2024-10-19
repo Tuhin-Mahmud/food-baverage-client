@@ -1,6 +1,6 @@
 [
     {
-        "image": "https://i.ibb.co/Ns27QC9/front-view-energy-drink-can-dark-pink-background-color-water-soda-darkness-drink.jpg",
+        "image": "https://i.ibb.co.com/McrSdVv/co-cacola1.jpg",
         "category": "coCa-Cola",
         "brand_name": "Diet Coke",
         "type": "drinks",
@@ -9,7 +9,7 @@
         "rating": 3.7
     },
     {
-        "image": "https://i.ibb.co/vwxtvCG/serving-cola-from-bottle-glass-full-ice.jpg",
+        "image": "https://i.ibb.co.com/Bq2CCCS/co-cacola2.jpg",
         "category": "coCa-Cola",
         "brand_name": "Coca-Cola Zero Sugar",
         "type": "drinks",
@@ -18,7 +18,7 @@
         "rating": 3.3
     },
     {
-        "image": "https://i.ibb.co/g4g38XW/delicious-mojito-rum-cola-blood-orange-vodka-cocktails-served-with-fruit.jpg",
+        "image": "https://i.ibb.co.com/18CCcQr/co-cacola3.jpg",
         "category": "coCa-Cola",
         "brand_name": "Sprite",
         "type": "drinks",
@@ -27,7 +27,7 @@
         "rating": 4.2
     },
     {
-        "image": "https://i.ibb.co/mRyC7GS/person-pouring-milk-full-glass-with-walnuts-tray.jpg",
+        "image": "https://i.ibb.co.com/3k6yBtt/co-cacola4.jpg",
         "category": "coCa-Cola",
         "brand_name": "Fairlife (ultra-filtered milk)",
         "type": "drinks",
@@ -36,7 +36,7 @@
         "rating": 3.7
     },
     {
-        "image": "https://i.ibb.co/ns87wtv/2150741653.jpg",
+        "image": "https://i.ibb.co.com/VtNp8YF/mcdonalds1.jpg",
         "category": "mcDonald's",
         "brand_name": " McChicken",
         "price": 89.99,
@@ -44,7 +44,7 @@
         "rating": 3.2
     },
     {
-        "image": "https://i.ibb.co/DLGZZXr/2150857868.jpg",
+        "image": "https://i.ibb.co.com/0JfNhVJ/mcdonalds2.jpg",
         "brand_name": "Chicken McNuggets",
         "category ": "mcDonald's",
         "price": 84.99,
@@ -52,7 +52,7 @@
         "rating": 2.4
     },
     {
-        "image": "https://i.ibb.co/S6B3Y3J/33220.jpg",
+        "image": "https://i.ibb.co.com/5YjFxhz/mcdonalds3.jpg",
         "brand_name": "Filet-O-Fish",
         "category": "mcDonald's",
         "price": 71.99,
@@ -60,7 +60,7 @@
         "rating": 2.9
     },
     {
-        "image": "https://i.ibb.co/2PTZj1Y/11818.jpg",
+        "image": "https://i.ibb.co.com/9np4wKn/mcdonalds4.jpg",
         "brand_name": "Hotcakes",
         "category": "mcDonald's ",
         "price": 64.99,
@@ -68,7 +68,7 @@
         "rating": 4.2
     },
     {
-        "image": "https://i.ibb.co/zfcDVgT/20895.jpg",
+        "image": "https://i.ibb.co.com/sQ4jgsw/starbuck1.jpg",
         "brand_name": "Turkey & Swiss Sandwich",
         "category": "starbuck",
         "price": 49.99,
@@ -76,7 +76,7 @@
         "rating": 3.8
     },
     {
-        "image": "https://i.ibb.co/zfcDVgT/20895.jpg",
+        "image": "https://i.ibb.co.com/B6901Xy/starbuck2.jpg",
         "brand_name": "Chicken Caprese Panini",
         "category": "starbuck",
         "price": 149.99,
@@ -84,7 +84,7 @@
         "rating": 3.7
     },
     {
-        "image": "https://i.ibb.co/2PTZj1Y/11818.jpg",
+        "image": "https://i.ibb.co.com/mRFBWF2/starbuck3.jpg",
         "brand_name": "Ham & Swiss Panini",
         "category": "starbuck",
         "price": 19.65,
@@ -92,15 +92,15 @@
         "rating": 3.9
     },
     {
-        "image": "https://i.ibb.co/2PTZj1Y/11818.jpg",
-        "brand_name": "Ham & Swiss Panini",
+        "image": "https://i.ibb.co.com/QMZ0mvF/starbuck4.jpg",
+        "brand_name": "hearty",
         "category": "starbuck",
         "price": 240.9,
         "description": " making it a popular choice for a hearty, comforting meal.",
         "rating": 3.5
     },
     {
-        "image": "https://i.ibb.co/zfcDVgT/20895.jpg",
+        "image": "https://i.ibb.co.com/nftmqRy/Quaker-Oats.jpg",
         "brand_name": "Quaker Oats",
         "category": "pepsiCo",
         "price": 79.99,
@@ -108,7 +108,7 @@
         "rating": 2.7
     },
     {
-        "image": "https://i.ibb.co/2PTZj1Y/11818.jpg",
+        "image": "https://i.ibb.co.com/NKtyQ4N/Capn-Crunch.jpg",
         "brand_name": "Cap'n Crunch",
         "category": "pepsiCo",
         "price": 19.99,
@@ -116,7 +116,7 @@
         "rating": 2.3
     },
     {
-        "image": "https://i.ibb.co/2PTZj1Y/11818.jpg",
+        "image": "https://i.ibb.co.com/7VvGdYz/Popcorn.jpg",
         "brand_name": "Popcorn",
         "category": "pepsiCo",
         "price": 249.99,
@@ -124,15 +124,15 @@
         "rating": 3.0
     },
     {
-        "image": "https://i.ibb.co/vwxtvCG/serving-cola-from-bottle-glass-full-ice.jpg",
-        "brand_name": "Rold Gold",
+        "image": "https://i.ibb.co.com/9ccmG1k/tostitos.jpg",
+        "brand_name": "Tostitos",
         "category": "pepsiCo",
         "price": 499.9,
-        "description": "Rold Gold is a brand known for its crunchy pretzels, available.",
+        "description": "Tostitos is a brand known for its crunchy pretzels, available.",
         "rating": 4.0
     },
     {
-        "image": "https://i.ibb.co/mRyC7GS/person-pouring-milk-full-glass-with-walnuts-tray.jpg",
+        "image": "https://i.ibb.co.com/y5XLHHh/kitkat1.jpg",
         "brand_name": "Kit Kat",
         "category": "nestlé",
         "price": 49.00,
@@ -140,7 +140,7 @@
         "rating": 2.3
     },
     {
-        "image": "https://i.ibb.co/N6fG4CL/Kit-Kat-11-Finger-milk-135g-3-D.jpg",
+        "image": "https://i.ibb.co.com/nM953Q9/Nesquik2.jpg",
         "brand_name": "Nesquik",
         "category": "nestlé",
         "price": 239.99,
@@ -148,7 +148,7 @@
         "rating": 2.6
     },
     {
-        "image": "https://i.ibb.co/MsxCB8z/61i8-Cpm-Fxd-L.jpg",
+        "image": "https://i.ibb.co.com/JtwxmCb/Chocapic3.jpg",
         "brand_name": "Chocapic",
         "category": "nestlé",
         "price": 19.99,
@@ -156,7 +156,7 @@
         "rating": 3.0
     },
     {
-        "image": "https://i.ibb.co/VWX94zf/61vv-UPdx-Rz-L-SL1000.jpg",
+        "image": "https://i.ibb.co.com/tQc8DLz/Nestl-ilkmaid4.jpg",
         "brand_name": "Nestlé Milkmaid",
         "category": "nestlé",
         "price": 99.9,
@@ -164,7 +164,7 @@
         "rating": 2.0
     },
     {
-        "image": "https://i.ibb.co/S6B3Y3J/33220.jpg",
+        "image": "https://i.ibb.co.com/Dp5jPGQ/Frosted-Flakes1.jpg",
         "brand_name": "Frosted Flakes",
         "category": "kellogg's",
         "price": 239.99,
@@ -172,7 +172,7 @@
         "rating": 1.9
     },
     {
-        "image": "https://i.ibb.co/CvpwMY1/images-2.jpg",
+        "image": "https://i.ibb.co.com/zNT4fcy/Rice-Krispies2.jpg",
         "brand_name": "Rice Krispies",
         "category": "kellogg's",
         "price": 199.99,
@@ -180,7 +180,7 @@
         "rating": 3.2
     },
     {
-        "image": "https://i.ibb.co/DLGZZXr/2150857868.jpg",
+        "image": "https://i.ibb.co.com/F8pYJwy/Nutrirainars3.jpg",
         "brand_name": "Nutri-Grain Bars",
         "category": "kellogg's",
         "price": 29.99,
@@ -188,7 +188,7 @@
         "rating": 3.4
     },
     {
-        "image": "https://i.ibb.co/zfcDVgT/20895.jpg",
+        "image": "https://i.ibb.co.com/XD6C1bW/Kellog-Ganola4.jpg",
         "brand_name": "Kellogg's Granola",
         "category": "kellogg's",
         "price": 23.99,
