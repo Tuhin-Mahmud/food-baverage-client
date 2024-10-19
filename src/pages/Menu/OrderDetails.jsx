@@ -33,7 +33,7 @@ const OrderDetails = () => {
     // const [cart, refetch] = useCarts()
     const [brandProduct, setBrandProduct] = useState([])
 
-    const { name, image, price, previousPrice, recipe, rating } = useLoaderData()
+    const { name, image, price, previousPrice, description, rating } = useLoaderData()
 
     // post comment
     const handleSubmit = e => {
@@ -149,7 +149,7 @@ const OrderDetails = () => {
                                 />
                             </div>
                             <h2 className="bg-slate-400 px-2 w-32 items-center gap-3 rounded text-white flex"><FcOk /> In stock</h2>
-                            <p className="text-gray-500">{recipe}</p>
+                            <p className="text-gray-500">{description}</p>
                             <div>
                                 <button onClick={() => handleAddToCart()} className="btn btn-primary"><MdOutlineShoppingCart className="text-lg " />
                                     Add To Cart </button>
@@ -182,7 +182,7 @@ const OrderDetails = () => {
                         </TabList>
                         <TabPanel>
                             <div className="">
-                                <p>{recipe}</p>
+                                <p>{description}</p>
                                 <p>This Classic Spaghetti Carbonara is a delicious and creamy Italian pasta dish made with just a few simple ingredients. The sauce is created by combining eggs, Parmesan cheese, and crispy pancetta, all tossed together with freshly cooked spaghetti. It’s a comforting, easy-to-make meal that’s perfect for weeknight dinners or a quick, indulgent treat. The dish is rich, savory, and bursting with flavor, making it a favorite for pasta lovers.</p>
                             </div>
                         </TabPanel>
