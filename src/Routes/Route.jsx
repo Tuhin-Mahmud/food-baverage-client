@@ -14,6 +14,8 @@ import Contacts from "../pages/Contacts/Contacts";
 import ProductUpdate from "../pages/ProductUpdate/ProductUpdate";
 import MenuTabs from "../pages/Menu/MenuTabs";
 import OrderDetails from "../pages/Menu/OrderDetails";
+import Reservation from "../pages/Reservation/Reservation";
+import Booking from "../pages/Booking/Booking";
 // import PrivetRout from "./PrivetRout/PrivetRout";
 // import ShowFoods from "../pages/ShowFoods/ShowFoods";
 
@@ -69,6 +71,17 @@ const router = createBrowserRouter([
                 path: '/orderDetails/:id',
                 element: <OrderDetails />,
                 loader: ({ params }) => fetch(`https://food-and-beverage-server-ecru.vercel.app/menu/${params.id}`)
+
+            },
+
+            {
+                path: 'reservation',
+                element: <Reservation />,
+
+            },
+            {
+                path: 'booking',
+                element: <Booking />,
 
             },
         ]

@@ -11,6 +11,7 @@ import Loader from "../../components/utils/Loader";
 
 
 const MenuTabs = () => {
+
     const [menu, isLoading] = useMenu()
     const [tabIndex, setTabIndex] = useState(0);
 
@@ -21,7 +22,6 @@ const MenuTabs = () => {
 
     if (isLoading) {
         return <Loader />
-
     }
     return (
         <Container>

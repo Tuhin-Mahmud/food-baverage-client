@@ -23,6 +23,7 @@ const Navbar = () => {
         <li className="font-serif text-lg font-bold hover:text-orange-600"><NavLink to="/addProduct">Add Product</NavLink></li>
         <li className="font-serif text-lg font-bold hover:text-orange-600"><NavLink to="/allFoods">All Foods</NavLink></li>
         <li className="font-serif text-lg font-bold hover:text-orange-600"><NavLink to="/contact">Contact us</NavLink></li>
+        <li className="font-serif text-lg font-bold hover:text-orange-600"><NavLink to="/booking">Booking Table</NavLink></li>
         {
             user?.email ?
                 <li className="font-serif text-lg font-bold hover:text-orange-600"><button onClick={handleLogOut}>Log out </button></li>
@@ -79,15 +80,20 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end border-rounded   ">
-                    <button className="border rounded-lg border-orange-300">
+                    <button className=" rounded-lg">
                         <Link to='/myCart'>
-                            <div className="flex items-center gap-3 p-3">
-                                <FaShoppingCart className="text-xl" />
-                                <p className="text-xl">{cart.length}</p>
+                            <div className="flex items-center gap-3 p-1">
+                                <button className="btn">
+                                    <FaShoppingCart className="text-xl" />
+                                    <div className="badge">+{cart.length}</div>
+                                </button>
+                                {/*
+                                <p className="text-xl">{cart.length}</p> */}
                             </div>
                         </Link>
 
                     </button>
+
                 </div>
             </div>
         </div>
