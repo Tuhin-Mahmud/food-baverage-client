@@ -22,7 +22,7 @@ const Navbar = () => {
         <li className="font-serif text-lg font-bold hover:text-orange-600"><NavLink to="/">Home</NavLink></li>
         <li className="font-serif text-lg font-bold hover:text-orange-600"><NavLink to="/addProduct">Add Product</NavLink></li>
         <li className="font-serif text-lg font-bold hover:text-orange-600"><NavLink to="/allFoods">All Foods</NavLink></li>
-        <li className="font-serif text-lg font-bold hover:text-orange-600"><NavLink to="/contact">Contact us</NavLink></li>
+        <li className="font-serif text-lg font-bold hover:text-orange-600"><NavLink to="/ContactUs">Contact Us</NavLink></li>
         <li className="font-serif text-lg font-bold hover:text-orange-600"><NavLink to="/booking">Booking Table</NavLink></li>
         {
             user?.email ?
