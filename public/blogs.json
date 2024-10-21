@@ -9,44 +9,18 @@
             "Gourmet",
             "Food Culture"
         ],
-        "subContent": [
-            {
-                "subImg": "https://example.com/images/chef.jpg",
-                "subName": "Restaurants with the Best Private Dining Rooms and Group",
-                "subDescription": "Discover the top restaurants that offer the finest private dining rooms, perfect for group gatherings, celebrations, and special occasions. From intimate settings to spacious venues, these establishments provide an ideal ambiance, personalized service, and exquisite menus to make every event memorable. Whether it's a corporate meeting or a family celebration, find the perfect spot to dine in style and privacy.",
-                "date": "October 21, 2024"
-            },
-            {
-                "subImg": "https://example.com/images/wine.jpg",
-                "subName": "Enthusiast’s Handbook From Manicures to Nail Health",
-                "subDescription": "Enthusiast’s Handbook: From Manicures to Nail Health is your comprehensive guide to achieving beautiful, healthy nails. Whether you're a beginner or a seasoned nail enthusiast, this handbook covers everything from the latest manicure techniques to essential nail care tips. Learn how to maintain nail health, explore trending nail art designs, and master the skills to keep your nails looking flawless and strong.",
-                "date": "september 24, 2024"
-            },
-            {
-                "subImg": "https://example.com/images/wine.jpg",
-                "subName": "Dive into Merida’s Signature Dishes and Culinary",
-                "subDescription": "Explore the rich culinary heritage of Mérida by diving into its signature dishes that showcase a blend of tradition, flavor, and culture. From vibrant street food to authentic Yucatecan cuisine, discover the must-try meals that define this city’s unique gastronomic scene. Experience the bold spices, fresh ingredients, and timeless recipes that make Mérida a true food lover’s paradise.",
-                "date": "August 24, 2024"
-            }
-        ]
+        "subImg": "https://i.ibb.co.com/VVy74J7/Nugget.jpg",
+        "subName": "The Golden Crispy Chicken Shack",
+        "subDescription": "Discover the top restaurants that offer the finest private dining rooms, perfect for group gatherings, celebrations, and special occasions. From intimate settings to spacious venues, these establishments provide an ideal ambiance, personalized service, and exquisite menus to make every event memorable. Whether it's a corporate meeting or a family celebration, find the perfect spot to dine in style and privacy."
     },
     {
         "name": "Street Food: A Global Journey",
         "image": "https://i.ibb.co.com/HKRGN2Q/image3.jpg",
         "description": "Dive into the vibrant world of street food, where culture, flavor, and community come together on every street corner.",
-        "subContent": [
-            {
-                "subImg": "https://example.com/images/taco.jpg",
-                "subName": "Local Delicacies",
-                "subDescription": "From tacos to dumplings, discover how street food reflects the heart of each culture."
-            },
-            {
-                "subImg": "https://example.com/images/dumplings.jpg",
-                "subName": "Street Food Adventures",
-                "subDescription": "Explore street food markets around the world, each offering a taste of local tradition."
-            }
-        ],
         "date": "October 03, 2024",
+        "subImg": "https://i.ibb.co.com/0JfNhVJ/mcdonalds2.jpg",
+        "subName": "Flame-Grilled & Crispy Chicken Delight",
+        "subDescription": "Explore the rich culinary heritage of Mérida by diving into its signature dishes that showcase a blend of tradition, flavor, and culture. From vibrant street food to authentic Yucatecan cuisine, discover the must-try meals that define this city’s unique gastronomic scene. Experience the bold spices, fresh ingredients, and timeless recipes that make Mérida a true food lover’s paradise.",
         "categories": [
             "Street Food",
             "Culture",
@@ -57,19 +31,10 @@
         "name": "Healthy Eating: Delicious & Nutritious",
         "image": "https://i.ibb.co.com/SdHp8yy/product-1.jpg",
         "description": "Learn how to make healthy eating a delicious habit with recipes and tips that nourish the body and delight the senses.",
-        "subContent": [
-            {
-                "subImg": "https://example.com/images/salad.jpg",
-                "subName": "Fresh & Balanced",
-                "subDescription": "Ideas for creating balanced meals that are not only good for you but also taste amazing."
-            },
-            {
-                "subImg": "https://example.com/images/smoothie.jpg",
-                "subName": "Nutrient-Rich Smoothies",
-                "subDescription": "Recipes for smoothies that provide essential nutrients and taste delicious."
-            }
-        ],
         "date": "August 30, 2024",
+        "subImg": "https://i.ibb.co.com/gM0R97g/checken.jpg",
+        "subName": "Southern Spice & Crunchy Chicken",
+        "subDescription": "Enthusiast’s Handbook: From Manicures to Nail Health is your comprehensive guide to achieving beautiful, healthy nails. Whether you're a beginner or a seasoned nail enthusiast, this handbook covers everything from the latest manicure techniques to essential nail care tips. Learn how to maintain nail health, explore trending nail art designs, and master the skills to keep your nails looking flawless and strong.",
         "categories": [
             "Health",
             "Nutrition",
