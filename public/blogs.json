@@ -4,14 +4,14 @@
         "image": "https://i.ibb.co.com/8cwdPmr/image2.jpg",
         "description": "Enthusiast’s Handbook: From Manicures to Nail Health is your comprehensive guide to achieving beautiful, healthy nails. Whether you're a beginner or a seasoned nail enthusiast, this handbook covers everything from the latest manicure techniques to essential nail care tips. Learn how to maintain nail health, explore trending nail art designs, and master the skills to keep your nails looking flawless and strong.",
         "date": "september 24, 2024",
-        "categories": [
-            "Dining",
-            "Gourmet",
-            "Food Culture"
-        ],
         "subImg": "https://i.ibb.co.com/VVy74J7/Nugget.jpg",
         "subName": "The Golden Crispy Chicken Shack",
-        "subDescription": "Discover the top restaurants that offer the finest private dining rooms, perfect for group gatherings, celebrations, and special occasions. From intimate settings to spacious venues, these establishments provide an ideal ambiance, personalized service, and exquisite menus to make every event memorable. Whether it's a corporate meeting or a family celebration, find the perfect spot to dine in style and privacy."
+        "subDescription": "Discover the top restaurants that offer the finest private dining rooms, perfect for group gatherings, celebrations, and special occasions. From intimate settings to spacious venues, these establishments provide an ideal ambiance, personalized service, and exquisite menus to make every event memorable. Whether it's a corporate meeting or a family celebration, find the perfect spot to dine in style and privacy.",
+        "categories": [
+            "Street Food",
+            "Culture",
+            "Travel"
+        ]
     },
     {
         "name": "Street Food: A Global Journey",

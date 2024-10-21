@@ -33,7 +33,7 @@ const Reservation = () => {
             image
         }
         console.log(information);
-        axios.post('http://localhost:5000/reservation', information)
+        axios.post('https://food-and-beverage-server-ecru.vercel.app/reservation', information)
             .then(res => {
                 console.log(res.data);
                 refetch()

@@ -95,7 +95,7 @@ const router = createBrowserRouter([
             {
                 path: 'blogDetails/:id',
                 element: <BlogsDetails />,
-                loader: ({ params }) => fetch(`http://localhost:5000/blog/${params.id}`)
+                loader: ({ params }) => fetch(`https://food-and-beverage-server-ecru.vercel.app/blog/${params.id}`)
 
             },
             {

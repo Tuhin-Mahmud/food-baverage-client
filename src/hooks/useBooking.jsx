@@ -1,4 +1,3 @@
-import axios from "axios";
 // import useAuth from "../../hooks/useAuth";
 // import useAxiosPublic from "../../hooks/useAxiosPublic";
 import { useQuery } from "@tanstack/react-query";
@@ -13,7 +12,7 @@ const useBooking = () => {
     const { data: reservation = [], refetch, isLoading } = useQuery({
         queryKey: ['reservation', user?.email],
         queryFn: async () => {
-            const res = await axios.get(`http://localhost:5000/reservation?emali=${user?.email}`)
+            const res = await axiosPublic.get(`/reservation?email=${user?.email}`)
 
             return res.data
         }

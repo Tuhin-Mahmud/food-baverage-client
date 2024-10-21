@@ -17,7 +17,7 @@ const Booking = () => {
     }
 
     const handleDelete = id => {
-        axios.delete(`http://localhost:5000/reservation/${id}`)
+        axios.delete(`https://food-and-beverage-server-ecru.vercel.app/reservation/${id}`)
             .then(res => {
                 console.log(res.data);
 
