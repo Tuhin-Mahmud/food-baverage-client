@@ -17,6 +17,8 @@ import OrderDetails from "../pages/Menu/OrderDetails";
 import Reservation from "../pages/Reservation/Reservation";
 import Booking from "../pages/Booking/Booking";
 import ContactUs from "../pages/Contacts/ContactUs";
+import Blogs from "../pages/Blogs/Blogs";
+import BlogsDetails from "../pages/Blogs/BlogsDetails";
 // import PrivetRout from "./PrivetRout/PrivetRout";
 // import ShowFoods from "../pages/ShowFoods/ShowFoods";
 
@@ -83,6 +85,17 @@ const router = createBrowserRouter([
             {
                 path: 'booking',
                 element: <Booking />,
+
+            },
+            {
+                path: 'blogs',
+                element: <Blogs />,
+
+            },
+            {
+                path: 'blogDetails/:id',
+                element: <BlogsDetails />,
+                loader: ({ params }) => fetch(`http://localhost:5000/blog/${params.id}`)
 
             },
             {

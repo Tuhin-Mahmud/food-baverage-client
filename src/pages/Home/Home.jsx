@@ -3,6 +3,7 @@ import Banner from "../../components/Header/Banner/Banner";
 import About from "../About/About";
 import Accordian from "../Accordian/Accordian";
 import BestChoice from "../BestChoice/BestChoice";
+import Blogs from "../Blogs/Blogs";
 import BrandProduct from "../BrandProduct/BrandProduct";
 // import BrandProduct from "../BrandProduct/BrandProduct";
 import Contacts from "../Contacts/Contacts";
@@ -18,6 +19,7 @@ const Home = () => {
             <NewFoods></NewFoods>
             <Menu></Menu>
             <About></About>
+            <Blogs></Blogs>
             <BestChoice></BestChoice>
             <Accordian></Accordian>
             <Contacts></Contacts>
