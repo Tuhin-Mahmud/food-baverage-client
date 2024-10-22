@@ -5,7 +5,7 @@ import Container from '../../components/utils/Container';
 const About = () => {
     return (
         <Container>
-            <div className=" my-7">
+            <div className=" ">
                 <div className=' flex flex-col lg:flex-row gap-3'>
                     <div className="lg:w-1/2 p-8">
                         <img className='rounded-lg' src={about} alt="" />

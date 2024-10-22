@@ -13,7 +13,7 @@ const SideBlogOne = () => {
                 <button className="btn join-item rounded-r-full">Search</button>
             </div>
             {/* --image and name-- */}
-            <div className="bg-gray-100 py-4">
+            <div className="bg-gray-50 py-5">
                 <h1 className="text-center text-orange-500 text-lg font-medium font-serif">Recent Post</h1>
 
                 <div>

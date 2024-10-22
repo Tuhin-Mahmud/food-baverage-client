@@ -8,7 +8,7 @@ const Contacts = () => {
 
     return (
         <Container>
-            <div className='bg-slate-100  p-10 rounded-lg mb-20'>
+            <div className='bg-slate-100  p-10 rounded-lg '>
                 <h1 className='text-xl md:text-4xl text-center '>Contact Us</h1>
                 <h1 className=' mb-10 text-orange-500 md:text-center font-serif'>Need reservation? <br />booking your table now!</h1>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 ">

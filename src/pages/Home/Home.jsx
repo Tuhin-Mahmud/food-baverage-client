@@ -8,6 +8,7 @@ import BrandProduct from "../BrandProduct/BrandProduct";
 // import BrandProduct from "../BrandProduct/BrandProduct";
 import Contacts from "../Contacts/Contacts";
 import Menu from "../Menu/Menu";
+import Testimonials from "../Testimonials/Testimonials";
 import NewFoods from "./NewFoods/NewFoods";
 
 
@@ -23,6 +24,7 @@ const Home = () => {
             <BestChoice></BestChoice>
             <Accordian></Accordian>
             <Contacts></Contacts>
+            <Testimonials />
         </div>
     );
 };

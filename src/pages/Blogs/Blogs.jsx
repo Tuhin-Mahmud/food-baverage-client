@@ -8,8 +8,8 @@ const Blogs = () => {
     console.log(blogs);
     return (
         <Container>
-            <div className="min-h-screen">
-                <div className="text-center">
+            <div className="">
+                <div className="text-center mb-3">
                     <h1 className="text-xl font-medium text-orange-500">TASTY AND CRUNCHY</h1>
                     <h1 className="text-xl md:text-4xl uppercase font-serif text-gray-600">Our Recent Blog Posts</h1>
                 </div>

@@ -13,7 +13,7 @@ const BlogsDetails = () => {
             <div className="min-h-screen">
                 <h1 className="text-center text-gray-600 text-xl md:text-5xl uppercase my-3">Blog Details</h1>
                 <div className="grid md:grid-cols-12 gap-4 px-5">
-                    <div className="md:col-span-9 ">
+                    <div className="md:col-span-9 px-5">
 
 
                         {/* < div >
@@ -60,7 +60,7 @@ const BlogsDetails = () => {
 
                         <div>
                             <img
-                                className="w-full pr-20"
+                                className="w-full rounded-md"
                                 src={image} alt="" />
                             <p className="flex gap-3  mt-2 items-center text-gray-600"><SlCalender className="text-lg" />{date}</p>
                             {/* content */}
@@ -103,7 +103,7 @@ const BlogsDetails = () => {
 
                     </div>
                     {/* right side bar */}
-                    <div className="md:col-span-3  border">
+                    <div className="md:col-span-3 px-2">
                         <SideBlogOne />
                     </div>
                 </div>

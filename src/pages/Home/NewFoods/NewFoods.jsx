@@ -13,7 +13,7 @@ import 'swiper/css/pagination';
 
 const NewFoods = () => {
     return (
-        <div className='mt-20 mb-20'>
+        <div className='mt-5'>
             <h1 className='text-4xl text-orange-500 font-bold mb-3 text-center'>Our New Foods</h1>
             <Swiper
                 slidesPerView={3}

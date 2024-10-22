@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 /* eslint-disable react/prop-types */
 const MenuCart = ({ item }) => {
-    const { image, name, price, _id } = item || {};
+    const { image, brand_name, price, _id } = item || {};
     console.log(item);
 
 
@@ -20,7 +20,7 @@ const MenuCart = ({ item }) => {
 
             <div className="text-center mt-2">
                 <h2 className=" capitalize text-xl">
-                    {name}
+                    {brand_name}
                 </h2>
                 <p className="text-orange-500 font-semibold">${price}</p>
 
